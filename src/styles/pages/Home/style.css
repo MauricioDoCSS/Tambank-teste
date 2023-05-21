@@ -1,0 +1,145 @@
+@media screen and (min-width: 300px) and (max-width: 450px) {
+
+.container-home {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.first-section-home {
+    display: flex;
+    flex-direction: column;
+    background-color:#375740;
+    width: 100%;
+    height: 30%;
+}
+
+.first-div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 25%;
+}
+
+.first-div img {
+    width: 30vw;
+}
+
+.second-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 100%;
+    height: 35%;
+
+}
+
+.second-div .second-div-btn {
+    display: flex;
+    gap: 1rem;
+}
+
+.button-eye {
+    padding: 1rem;
+    border-radius: 2rem;
+    color: #fff;
+    border: none;
+    background-color: transparent;
+    opacity: 0.6;
+}
+
+.button-question {
+    background-color: transparent;
+    padding: 1rem;
+    border-radius: 2rem;
+    color: #fff;
+    opacity: 0.6;
+    border: 2.5px solid #fff;
+}
+
+.third-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    height: 40%;
+    padding-left: 1rem;
+}
+
+.title-hi {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.agency {
+    font-size: 0.9rem;
+    color: #fff;
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+.second-section-home {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+}
+
+.container-subtitle {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 25%;
+}
+
+.div-one-subtitle {
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+}
+
+.div-one-subtitle span {
+    font-size: 1rem;
+    color: #375740;
+    font-weight: 700;
+}
+
+.div-second-subtitle {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.div-second-subtitle span {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #375740;
+}
+
+.div-second-subtitle button {
+    border: none;
+    color: #375740;
+    background-color: transparent;
+}
+
+.third-div-subtitle {
+    display: flex;
+    width: 100%;
+}
+
+.third-div-subtitle span {
+    padding: 1rem;
+    font-weight: 700;
+    color: #375740;
+}
+
+.container-all-options {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+}
